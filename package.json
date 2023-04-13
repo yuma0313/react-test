@@ -42,6 +42,9 @@
     "semi": false
   },
   "jest": {
+    "testMatch": [
+      "<rootDir>/__tests__//*.test.tsx"
+    ],
     "testPathIgnorePatterns": [
       "<rootDir>/.next/",
       "<rootDir>/node_modules/"
